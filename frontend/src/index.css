@@ -36,6 +36,8 @@ body {
 
 .navbar {
   z-index: 1000; /* Keep it above other elements */
+  height: 60px; /* Set a fixed height for the navbar */
+  min-height: 60px; /* Ensure the navbar does not shrink */
 }
 
 .navbar-nav .nav-link {
