@@ -34,6 +34,25 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+  z-index: 1000; /* Keep it above other elements */
+}
+
+.navbar-nav .nav-link {
+  color: black !important; /* Adjust as needed */
+}
+
+.navbar-toggler {
+  border-color: black !important;
+}
+
+.navbar-collapse {
+  background: rgba(222, 222, 1220, 0.8) !important;
+  border: 1px solid #ddd; /* Add a light border for visibility */
+
+}
+
+
 .home {
   padding: 0;
   height: 100vh;

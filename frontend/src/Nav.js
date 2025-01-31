@@ -1,20 +1,6 @@
 import { NavLink, Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-const StyledButton = styled.button`
-border: 2px solid #4CAF50;
-background-color: #4CAF50;
-color: white;
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-border-radius: 5px;
-cursor: pointer;
-transition: all 0.3s ease 0s;
-`;
-
 const StyledNavLink = styled(NavLink)`
 color: inherit;
 text-decoration: none;
@@ -29,7 +15,7 @@ text-decoration: none;
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg custom-navbar bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg custom-navbar bg-body-tertiary navbar-light">
       <div className="container-fluid">
         <NavLink className="navbar-brand" style={{ color: 'black', fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', }} to="/">Miracle for Paws Rescue Inc</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
