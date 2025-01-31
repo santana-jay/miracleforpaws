@@ -62,6 +62,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  background-size: 100% 100%; /* Ensures the background adapts to the screen size */
 }
 
 .about {
