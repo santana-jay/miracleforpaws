@@ -78,7 +78,7 @@ body {
 
   /* Adjust home background for mobile */
   .home {
-    background-size: 100% auto;
+    background-size: 100% 80%;
     background-position: top center;
     background-size: contain; /* Change from cover to contain */
 
