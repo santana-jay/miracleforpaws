@@ -53,17 +53,17 @@ body {
 /* Only apply these changes for mobile devices */
 @media screen and (max-width: 768px) {
   .navbar {
-    min-height: 100px;
-    padding: 1rem 0.5rem;
+    min-height: 120px;
+    padding: 1.5rem;
   }
 
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.8rem !important;
   }
 
   .navbar-toggler {
-    padding: 0.75rem;
-    font-size: 1.25rem;
+    padding: 1rem;
+    font-size: 1.5rem;
   }
 
   .navbar-collapse {
@@ -71,7 +71,7 @@ body {
     top: 100%;
     left: 0;
     right: 0;
-    padding: 1rem;
+    padding: 1.5rem;
     background: rgba(222, 222, 220, 0.95) !important;
   }
 
@@ -80,8 +80,8 @@ body {
   }
 
   .nav-link {
-    padding: 1rem 0;
-    font-size: 1.2rem;
+    padding: 1.2rem 0;
+    font-size: 1.4rem;
   }
 
   .home {

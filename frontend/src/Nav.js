@@ -17,7 +17,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg custom-navbar bg-body-tertiary navbar-light">
       <div className="container-fluid">
-        <NavLink className="navbar-brand" style={{ color: 'black', fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', }} to="/">Miracle for Paws Rescue Inc</NavLink>
+        <NavLink className="navbar-brand" style={{ color: 'black', fontFamily: 'Arial, sans-serif', fontSize: '16px', fontWeight: 'bold', '@media (max-width: 768px)': {fontSize: '24px'} }} to="/">Miracle for Paws Rescue Inc</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
