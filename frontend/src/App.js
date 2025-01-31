@@ -26,10 +26,12 @@ const App = () => {
     <>
       <Router>
         <Nav />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <div className="content-wrapper">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </div>
         <Footer />
       </Router>
     </>
