@@ -48,7 +48,7 @@ function Nav() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link className="btn btn-md btn-outline-primary" to="https://www.facebook.com/groups/442234401707378/events">Upcoming Events</Link>
+              <Link className="btn btn-md btn-primary" to="https://www.facebook.com/groups/442234401707378/events">Upcoming Events</Link>
             </li>
           </ul>
         </div>
