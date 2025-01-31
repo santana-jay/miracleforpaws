@@ -3,13 +3,19 @@ import React from "react";
 const Footer = () => {
   return (
     <footer style={{
+      // width: '100%',
+      // backgroundColor: 'rgba(222,222,1220, 0.8)',
+      // color: 'rgba(0,0,0,0.8)',
+      // textAlign: 'center',
+      // padding: '0px',
+      // position: 'fixed',
+      // bottom: '0',
+      // left: '0',
       width: '100%',
       backgroundColor: 'rgba(222,222,1220, 0.8)',
       color: 'rgba(0,0,0,0.8)',
       textAlign: 'center',
       padding: '0px',
-      position: 'fixed',
-      bottom: '0',
       left: '0',
     }}>
       <p>&copy; {new Date().getFullYear()} Miracle For Paws Rescue Inc.</p>
