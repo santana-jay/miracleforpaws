@@ -1,0 +1,111 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("./images/MiraclePaws.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; */
+}
+
+body {
+  min-height: 100vh;
+  padding-bottom: 50px; /* Adjust based on footer height */
+  box-sizing: border-box;
+}
+
+.home {
+  padding: 0;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./images/MiraclePaws.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about {
+  padding: 48px;
+  text-align: center;
+  text-emphasis: bold;
+}
+
+.about-text {
+  padding: 54px;
+  text-align: center;
+  text-emphasis: bold;
+  font-size: 18px;
+  padding-bottom: 36px !important;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.image-grid img {
+  width: 100%; /* Ensures images fill their container */
+  height: auto; /* Keeps aspect ratio */
+  border-radius: 10px; /* Optional: adds rounded corners */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  height: 100vh;
+  /* background-image: url("./images/car_image2.jpg"); */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+}
+
+.text-container {
+.custom-navbar {
+  background-color: rgba(222, 222, 1220, 0.8);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px; /* Adjust based on your design */
+  background-color: #f1f1f1; /* Adjust based on your design */
+  text-align: center;
+  line-height: 50px; /* Adjust based on your design */
+}
+}
+
+.custom-navbar {
+  background-color: rgba(222, 222, 1220, 0.8);
+}
