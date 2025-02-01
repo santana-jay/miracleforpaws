@@ -131,7 +131,7 @@ body {
     left: 0;
     right: 0;
     padding: 1rem;
-    background-color: rgba(222, 222, 1220, 0.8) !important;
+    background-color: rgba(222, 222, 1220,) !important;
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
@@ -149,10 +149,14 @@ body {
   }
 
   .dropdown-menu {
-    background-color: rgba(222, 222, 1220, 0.8);
+    background-color: rgba(222, 222, 1220,);
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 0.5rem 0;
+  }
+
+  .dropdown-menu {
+    background-color: #f8f9fa !important; /* Slightly different shade for dropdown */
   }
 
   .dropdown-item {
