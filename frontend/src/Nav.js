@@ -34,7 +34,7 @@ function Nav() {
                 Donate
               </StyledNavLink>
               <ul className="dropdown-menu">
-                <li><StyledNavLink className="dropdown-item" to='https://form.jotform.com/241268320502143?'>Every Penny Helps</StyledNavLink></li>
+                <li><StyledNavLink className="dropdown-item" to='https://account.venmo.com/u/MiraclesForPawsRescueInc'>Every Penny Helps</StyledNavLink></li>
                 <li><StyledNavLink className="dropdown-item" to="https://www.amazon.com/hz/wishlist/ls/ZQYZF3PCK1X3?ref_=wl_share">Puppy Amzn Wishlist</StyledNavLink></li>
               </ul>
             </li>
