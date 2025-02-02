@@ -34,8 +34,8 @@ function Nav() {
                 Donate
               </StyledNavLink>
               <ul className="dropdown-menu">
-                <li><StyledNavLink className="dropdown-item" to='https://account.venmo.com/u/MiraclesForPawsRescueInc'>Every Penny Helps</StyledNavLink></li>
-                <li><StyledNavLink className="dropdown-item" to="https://www.amazon.com/hz/wishlist/ls/ZQYZF3PCK1X3?ref_=wl_share">Puppy Amzn Wishlist</StyledNavLink></li>
+                <li><StyledNavLink className="dropdown-item" to='https://account.venmo.com/u/MiraclesForPawsRescueInc' target="_blank" rel="noopener noreferrer">Every Penny Helps</StyledNavLink></li>
+                <li><StyledNavLink className="dropdown-item" to="https://www.amazon.com/hz/wishlist/ls/ZQYZF3PCK1X3?ref_=wl_share" target="_blank" rel="noopener noreferrer">Puppy Amzn Wishlist</StyledNavLink></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
@@ -43,8 +43,8 @@ function Nav() {
                 Services
               </StyledNavLink>
               <ul className="dropdown-menu">
-                <li><StyledNavLink className="dropdown-item" to='https://form.jotform.com/241268320502143?'>Foster</StyledNavLink></li>
-                <li><StyledNavLink className="dropdown-item" to="https://form.jotform.com/241268756355162?">Adopt</StyledNavLink></li>
+                <li><StyledNavLink className="dropdown-item" to='https://form.jotform.com/241268320502143?' target="_blank" rel="noopener noreferrer">Foster</StyledNavLink></li>
+                <li><StyledNavLink className="dropdown-item" to="https://form.jotform.com/241268756355162?" target="_blank" rel="noopener noreferrer">Adopt</StyledNavLink></li>
               </ul>
             </li>
             <li className="nav-item">
